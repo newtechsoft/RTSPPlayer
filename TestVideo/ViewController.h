@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class RTSPPlayer;
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) RTSPPlayer *video;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
 
